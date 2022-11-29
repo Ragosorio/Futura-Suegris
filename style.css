@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(135deg, #fb5607 0%,#ff006e 54%,#8338ec 100%) no-repeat fixed center;
+}
+.contenedor{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titulo{
+    color: #fff;
+    font-size: 60px;
+}
+.btn{
+    width: 400px;
+    height: 400px;
+    color: #fff;
+    background: rgba(245, 245, 245, 0.3);
+    border: none;
+    border-radius: 100%;
+}
+.btn:hover{
+    background: rgba(245, 245, 245, 0.4);
+    color: #9fe1e3;
+}
